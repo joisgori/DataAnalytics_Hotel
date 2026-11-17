@@ -1,0 +1,6 @@
+tabla,paso,filas_antes,filas_despues,filas_quitadas,detalle
+ocupaciones,quitar anómalas,3405916,3405906,10,"I-04: 200 cuartos y 992.674,86 de ingresos"
+ocupaciones,quitar duplicados exactos,3405906,3260713,145193,Paso 2.2: filas idénticas en todas las columnas
+ocupaciones,quitar filas vacías,3260713,2009349,1251364,I-17: ingresos y cuartos a 0 (no afectan a los KPIs)
+reservaciones,quitar filas sin habitaciones,203002,101953,101049,"I-12: fantasmas (0 habitaciones, 0 cuartos, 0 tarifa)"
+reservaciones,quitar sin fecha de llegada,101953,101952,1,I-07: no asignables a un mes (2 cuartos noche)
